@@ -20,7 +20,16 @@
         android:hint="@string/editText_password_login" />
 
     <Button
+        android:id="@+id/button_Login_loginActivity"
         android:layout_width="@dimen/width_buttonLogin_loginActivity"
         android:layout_height="@dimen/height_buttonLogin_loginActivity"
         android:text="@string/button_login_loginActivity" />
+
+    <TextView
+        android:id="@+id/textView_register_loginActivity"
+        android:layout_width="@dimen/width_editText_loginActivity"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="@string/textView_register_loginActivity"
+        android:textSize="@dimen/textSize_textViewRegitter_loginActivity" />
 </LinearLayout>
