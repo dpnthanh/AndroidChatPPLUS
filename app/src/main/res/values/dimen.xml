@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="width_editText_loginActivity">300dp</dimen>
+    <dimen name="height_editText_loginActivity">64dp</dimen>
+
+    <dimen name="width_buttonLogin_loginActivity">300dp</dimen>
+    <dimen name="height_buttonLogin_loginActivity">64dp</dimen>
+</resources>
