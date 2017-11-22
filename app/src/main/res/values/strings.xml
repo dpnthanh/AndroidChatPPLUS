@@ -4,4 +4,5 @@
     <string name="editText_password_login">Enter Password:</string>
     <string name="button_login_loginActivity">Login</string>
     <string name="textView_register_loginActivity">Do not have account? Register now.</string>
+    <string name="hint_email">abc@email.com</string>
 </resources>

@@ -33,10 +33,10 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private void initControls() {
-        edtUserName = (EditText) findViewById(R.id.editText_userName_loginActivity);
-        edtPassword = (EditText) findViewById(R.id.editText_password_loginActivity);
-        btnLogin = (Button) findViewById(R.id.button_Login_loginActivity);
-        txtRegister = (Button) findViewById(R.id.button_Login_loginActivity);
+//        edtUserName = (EditText) findViewById(R.id.editText_userName_loginActivity);
+//        edtPassword = (EditText) findViewById(R.id.editText_password_loginActivity);
+//        btnLogin = (Button) findViewById(R.id.button_Login_loginActivity);
+//        txtRegister = (Button) findViewById(R.id.button_Login_loginActivity);
 
     }
 
