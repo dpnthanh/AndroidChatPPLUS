@@ -2,10 +2,12 @@
 <resources>
 
     <dimen name="width_editText_loginActivity">300dp</dimen>
-    <dimen name="height_editText_loginActivity">64dp</dimen>
+    <dimen name="height_editText_loginActivity">52dp</dimen>
 
     <dimen name="width_buttonLogin_loginActivity">300dp</dimen>
-    <dimen name="height_buttonLogin_loginActivity">64dp</dimen>
+    <dimen name="height_buttonLogin_loginActivity">52dp</dimen>
 
     <dimen name="textSize_textViewRegitter_loginActivity">16dp</dimen>
+
+    <dimen name="textSize_remember_loginActivity">16sp</dimen>
 </resources>

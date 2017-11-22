@@ -12,8 +12,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
 
     EditText edtUserName, edtPassword;
     Button btnLogin;
-    TextView txtRegister;
-
+    TextView txtForgotPass;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -25,6 +24,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     private void initEvents() {
+        btnLogin.setOnClickListener(this);
+        txtForgotPass.setOnClickListener(this);
 
     }
 
@@ -36,7 +37,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         edtUserName = (EditText) findViewById(R.id.editText_userName_loginActivity);
         edtPassword = (EditText) findViewById(R.id.editText_password_loginActivity);
         btnLogin = (Button) findViewById(R.id.button_Login_loginActivity);
-        txtRegister = (Button) findViewById(R.id.button_Login_loginActivity);
+        txtForgotPass = (Button) findViewById(R.id.button_Login_loginActivity);
 
     }
 
@@ -46,9 +47,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             case R.id.button_Login_loginActivity:
 
                 login();
-                
+
                 break;
-            case R.id.textView_register_loginActivity:
+            case R.id.textView_f_loginActivityorgotPass:
 
                 Intent intent = new Intent(LoginActivity.this, RegisterActivity.class);
                 startActivity(intent);

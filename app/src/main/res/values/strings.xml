@@ -3,5 +3,6 @@
     <string name="editText_username_login">Enter Username:</string>
     <string name="editText_password_login">Enter Password:</string>
     <string name="button_login_loginActivity">Login</string>
-    <string name="textView_register_loginActivity">Do not have account? Register now.</string>
+    <string name="textView_forgotPass_loginActivity">Forgot password</string>
+    <string name="checkBox_remember_loginActivity">Remember</string>
 </resources>
