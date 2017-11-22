@@ -1,8 +1,10 @@
 <resources>
-    <string name="app_name">GroupChatPPlus</string>
-    <string name="editText_username_login">Enter Username:</string>
-    <string name="editText_password_login">Enter Password:</string>
-    <string name="button_login_loginActivity">Login</string>
-    <string name="textView_register_loginActivity">Do not have account? Register now.</string>
-    <string name="hint_email">abc@email.com</string>
+    <string name="app_name" translatable="false">GroupChatPPlus</string>
+    <string name="editText_username_login" translatable="false">Enter Username:</string>
+    <string name="editText_password_login" translatable="false">Enter Password:</string>
+    <string name="button_login_loginActivity" translatable="false">Login</string>
+    <string name="textView_register_loginActivity" translatable="false">Do not have account? Register now.</string>
+    <string name="hint_email" translatable="false">abc@email.com</string>
+    <string name="textView_forgotPass_loginActivity" translatable="false">Forgot password</string>
+    <string name="checkBox_remember_loginActivity" translatable="false">Remember</string>
 </resources>
