@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_item_group"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:showIn="@layout/activity_goup_chat"
+    tools:context=".GoupChatActivity"
+    android:id="@+id/grChat_2">
+    <ImageView
+        android:id="@+id/img_item_group_2"
+        android:layout_centerVertical="true"
+        android:src="@drawable/ic_launcher_background"
+        android:layout_marginLeft="@dimen/marginLeft_img_item_group"
+        android:layout_width="@dimen/height_img_item_group"
+        android:layout_height="@dimen/width_img_item_group" />
+    <RelativeLayout
+        android:id="@+id/txt_item_group_2"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_name_item_group_2"
+            android:layout_width="@dimen/width_txt_name_item_group"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="16dp"
+            android:textSize="@dimen/fontsize_name_gr"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="@string/name_group" />
+        <LinearLayout
+            android:id="@+id/users_item_group_2"
+            android:orientation="horizontal"
+            android:layout_below="@+id/txt_name_item_group_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:src="@mipmap/ic_user"
+                android:layout_width="@dimen/size_icon_users_item_group"
+                android:layout_height="@dimen/size_icon_users_item_group" />
+            <TextView
+                android:id="@+id/number_user_2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

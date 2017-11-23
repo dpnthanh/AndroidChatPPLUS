@@ -6,6 +6,6 @@
     tools:context="com.pplus.android.groupchatpplus.MainActivity"
     android:background="@android:color/white">
 
-
+    <include layout="@layout/activity_goup_chat"/>
 
 </ScrollView>

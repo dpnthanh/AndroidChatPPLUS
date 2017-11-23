@@ -7,4 +7,17 @@
     <dimen name="height_buttonLogin_loginActivity">64dp</dimen>
     <dimen name="textSize_textViewRegitter_loginActivity">16dp</dimen>
     <dimen name="textSize_remember_loginActivity">16sp</dimen>
+    <dimen name="height_listview">100dp</dimen>
+    <dimen name="height_custom_action_bar">50dp</dimen>
+    <dimen name="height_item_group">150dp</dimen>
+    <dimen name="height_img_item_group">130dp</dimen>
+    <dimen name="width_img_item_group">130dp</dimen>
+    <dimen name="marginLeft_img_item_group">10dp</dimen>
+    <dimen name="size_icon_users_item_group">20dp</dimen>
+    <dimen name="width_txt_name_item_group">230dp</dimen>
+    <dimen name="fontsize_name_gr">30dp</dimen>
+    <dimen name="size_icon_send">50dp</dimen>
+    <dimen name="width_edtxt_chat_activity">300dp</dimen>
+    <dimen name="height_edtxt_chat_activity">50dp</dimen>
+    <dimen name="marginLeft_edt_chat">20dp</dimen>
 </resources>

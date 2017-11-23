@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_gravity="bottom"
+    android:layout_alignParentBottom="true">
+    <EditText
+        android:hint="@string/type_text"
+        android:layout_marginLeft="@dimen/marginLeft_edt_chat"
+        android:layout_width="@dimen/width_edtxt_chat_activity"
+        android:layout_height="@dimen/height_edtxt_chat_activity" />
+
+    <ImageView
+        android:layout_width="@dimen/size_icon_send"
+        android:layout_height="@dimen/size_icon_send"
+        android:src="@mipmap/ic_send" />
+</LinearLayout>
