@@ -27,5 +27,5 @@
     <dimen name="textSize_please">20sp</dimen>
     <dimen name="mr_edt_name">10dp</dimen>
     <dimen name="mr_l_edt_name">30dp</dimen>
-    <dimen name="mrL_icon_send">20dp</dimen>
+    <dimen name="mrL_icon_send">10dp</dimen>
 </resources>
