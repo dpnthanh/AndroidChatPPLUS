@@ -31,7 +31,7 @@
             android:textSize="@dimen/fontsize_name_gr"
             android:textStyle="bold"
             android:textColor="@color/black"
-            android:text="@string/name_group" />
+            android:text="@string/name_group1" />
         <LinearLayout
             android:id="@+id/users_item_group"
             android:orientation="horizontal"

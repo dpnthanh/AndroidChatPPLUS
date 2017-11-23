@@ -20,4 +20,5 @@
     <dimen name="width_edtxt_chat_activity">300dp</dimen>
     <dimen name="height_edtxt_chat_activity">50dp</dimen>
     <dimen name="marginLeft_edt_chat">20dp</dimen>
+    <dimen name="textSize_name">32dp</dimen>
 </resources>

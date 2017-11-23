@@ -7,7 +7,10 @@
     <string name="hint_email" translatable="false">abc@email.com</string>
     <string name="textView_forgotPass_loginActivity" translatable="false">Forgot password</string>
     <string name="checkBox_remember_loginActivity" translatable="false">Remember</string>
-    <string name="name_group">Training PPlus</string>
+    <string name="name_group1">Training PPlus 1</string>
+    <string name="name_group2">Training PPlus 2</string>
     <string name="name_group_2">PPLus Team</string>
     <string name="type_text">Type text ....</string>
+    <string name="text_name">Name: </string>
+    <string name="text_inputName">Input name: </string>
 </resources>

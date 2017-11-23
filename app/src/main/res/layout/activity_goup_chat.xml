@@ -3,9 +3,21 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
+    android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context="com.pplus.android.groupchatpplus.GoupChatActivity">
+    <TextView
+        android:text="@string/text_name"
+        android:textSize="@dimen/textSize_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:id="@+id/edt_name"
+        android:hint="@string/text_inputName"
+        android:layout_gravity="center"
+        android:layout_width="@dimen/width_buttonLogin_loginActivity"
+        android:layout_height="wrap_content" />
 
     <include layout="@layout/item_group_1"/>
     <include layout="@layout/item_group_2"/>

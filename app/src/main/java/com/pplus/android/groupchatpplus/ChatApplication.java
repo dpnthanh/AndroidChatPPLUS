@@ -9,7 +9,8 @@ class ChatApplication {
     private Socket mSocket;
     {
         try{
-            mSocket = IO.socket("http://192.168.1.8:3000");
+            mSocket = IO.socket("http://10.200.202.239:3000");
+//            mSocket = IO.socket("https://pplus-chat-group.herokuapp.com:80");
         } catch (URISyntaxException e) {
             throw new RuntimeException(e);
         }

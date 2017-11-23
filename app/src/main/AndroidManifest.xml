@@ -12,15 +12,16 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".GoupChatActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".GoupChatActivity" />
         <activity android:name=".Chat_Activity" />
-        <activity android:name=".Fragment_gr_1"></activity>
     </application>
 
 </manifest>
