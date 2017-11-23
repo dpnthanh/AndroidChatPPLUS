@@ -2,24 +2,41 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
-    android:gravity="center"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/br"
+    android:gravity="center"
+    android:orientation="vertical"
     tools:context="com.pplus.android.groupchatpplus.GoupChatActivity">
+
     <TextView
-        android:text="@string/text_name"
-        android:textSize="@dimen/textSize_name"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="@string/please"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textSize_please"
+        android:textStyle="italic"
+        tools:ignore="SpUsage" />
+
     <EditText
         android:id="@+id/edt_name"
-        android:hint="@string/text_inputName"
-        android:layout_gravity="center"
         android:layout_width="@dimen/width_buttonLogin_loginActivity"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_cardview_item"
+        android:background="@color/br_edt_name"
+        android:hint="@string/text_inputName"
+        android:paddingBottom="@dimen/mr_edt_name"
+        android:paddingLeft="@dimen/mr_l_edt_name"
+        android:paddingTop="@dimen/mr_edt_name"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textStyle="bold" />
 
-    <include layout="@layout/item_group_1"/>
-    <include layout="@layout/item_group_2"/>
+
+    <include layout="@layout/item_group_1" />
+
+    <include layout="@layout/item_group_2" />
 
 </LinearLayout>

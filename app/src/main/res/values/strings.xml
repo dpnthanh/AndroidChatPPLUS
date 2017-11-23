@@ -13,4 +13,6 @@
     <string name="type_text">Type text ....</string>
     <string name="text_name">Name: </string>
     <string name="text_inputName">Input name: </string>
+    <string name="please">Please type YOUR NAME in box</string>
+    <string name="choice">and choose a Group chat</string>
 </resources>
